@@ -6,7 +6,7 @@ const gameRule = 'Answer "yes" if the number is even, otherwise answer "no".';
 // проверка четности
 const isEven = (num) => num % 2 === 0;
 
-// вывод случайного числа и его четности/нечетности
+// генерация случайного числа и проверка его четности
 const gameData = () => {
   const task = randomNum();
   const expectedAnswer = isEven(task) ? 'yes' : 'no';
